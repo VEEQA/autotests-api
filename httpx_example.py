@@ -1,5 +1,3 @@
-from tkinter.scrolledtext import example
-
 import httpx
 
 response = httpx.get ('https://jsonplaceholder.typicode.com/todos/1')
